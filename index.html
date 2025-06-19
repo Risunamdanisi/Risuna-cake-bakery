@@ -10,6 +10,23 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ #buy{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    border-radius: 20px;
+ }
+
+    #readmore{
+        font-family: Arial,  sans-serif;
+        font-size: 1.5rem;
+        background-color: orange;
+        border-radius: 15px;
+        
+    }
+
 </style>
 </head>
 <body bgcolor="pink">
@@ -27,7 +44,8 @@ p{
 </header>
 <h1> Risuna cake bakery</h1>
 
-<button id="mybutton">Buy now</button>     
+
+<button id="buy">Buy now</button>     
 </div>
 <div class="content-box">
     <div class="image-container">
@@ -47,14 +65,25 @@ p{
         </p>
     </div>
 </div>
+        
 </div>
 
+    <button id="readmore">ReadMore</button>
 
 
+  
+<script>
+    
+    document.getElementById("buy").onclick = function(){
+        window.location.href = 'buy.html'
+    }
 
+    document.getElementById("readmore").onclick = function(){
+        window.location.href = 'aboutus.html'
+    }
 
+</script>
 
-   
 
 
 

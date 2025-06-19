@@ -40,8 +40,8 @@
                 <input type="text" placeholder="Surname"><br><br>
                 <input type="number" placeholder="Phone no"><br><br>
                 <input type="email "placeholder="Email"><br><br>
-                <testarea placeholder="Massage"></testarea><br><br>
-                <button type="submit">submit</button><br><br>
+                <textarea name="" id="text" placeholder="Enter Message"></textarea> <br>
+                <button type="submit" id="submit">submit</button><br><br>
             </form>
         </div>
       </div>
@@ -49,6 +49,12 @@
 
 
 
+<script>
+    document.getElementById("submit").onclick = function(){
+        alert('Thank you for reaching out to us, we will get back to you soon.')
+    }
 
+
+</script>
 
 </html>

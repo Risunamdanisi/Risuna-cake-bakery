@@ -10,7 +10,14 @@
             font-family: Arial, Helvetica, sans-serif;
         
         }
+        .cakes{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            font-size: 20px;
+        }
         
+      
         </style>
 </head>
 <body bgcolor="pink">
@@ -33,14 +40,38 @@
        holidaty specials for valentine's day heart cakes,christmas,heritage day treats with regional flair.cupcakes come in boxes of four, 
        six or twelve  they are classic with edible flowers,drizzles and sprinles and cutomized and themed for specila occasions</p>
 
-       <img src="images/muffins.jpg " alt="image" width="250" height="200">
-       <img src="images/carrot.jpg " alt="image" width="250" height="200">
-       <img src="images/events.jpg " alt="image" width="250" height="200">
-       <img src="images/cake-1227842_640.jpg " alt="image" width="250" height="200">
+      
+     <h2 style="padding: 20px; font-weight: bold; font-size: 30px;">Click here to view our cakes</h2> 
+       <div class="cakes">
+       
+            <button id="muffins">Muffins</button>
+            <button id="birthdayCakes"> Birthday Cakes</button>
+            <button id="weddingCakes">Wedding Cakes</button>
+        </div>
+
 </body>
 
 
+<script>
 
+        let images = ["images/muffins.jpg","images/carrot.jpg ", "images/events.jpg ", "images/cake-1227842_640.jpg "];
+
+        document.getElementById("muffins").onclick = function(){
+        window.open(images[0]);
+        }
+
+        document.getElementById("birthdayCakes").onclick = function(){
+            window.open(images[2])
+        }
+
+        document.getElementById("weddingCakes").onclick = function(){
+            window.open(images[3])
+        }
+
+        
+   
+
+</script>
 
 
 </html>

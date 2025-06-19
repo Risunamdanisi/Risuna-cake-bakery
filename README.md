@@ -4,6 +4,3 @@
  ![Alt text](<Screenshot (6)-1.png>)
  ![Alt text](<Screenshot (7).png>)
 
-
-
-[Title](risuna.zip)
